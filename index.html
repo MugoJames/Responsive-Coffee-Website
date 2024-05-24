@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee Shop Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <!--Header section-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="Images/logo.jpeg" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div class="icons">
+            <ion-icon name="search" id="search-btn"></ion-icon>
+            <ion-icon name="cart" id="cart-btn"></ion-icon>
+            <ion-icon name="menu" id="menu-icon"></ion-icon>
+        </div>
+
+        <div class="searchform">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box"><ion-icon name="search"></ion-icon></label>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <div class="icon">
+                    <ion-icon name="close"></ion-icon>
+                </div>
+                    <img src="https://cdn.pixabay.com/photo/2014/10/04/17/32/coffee-473765_1280.jpg" alt="">
+                <div class="content">
+                    <h3>Cart item 01</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="icon">
+                    <ion-icon name="close"></ion-icon>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2014/04/05/11/21/ground-315405_1280.jpg" alt="">
+                <div class="content">
+                    <h3>Cart item 02</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="icon">
+                    <ion-icon name="close"></ion-icon>
+                </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB8qamFN4ksuP_UAET6aywJqVKHi94bb716A&usqp=CAU" alt="">
+                <div class="content">
+                    <h3>Cart item 03</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="icon">
+                    <ion-icon name="close"></ion-icon>
+                </div>
+                    <img src="https://images.unsplash.com/photo-1587049016823-69ef9d68bd44?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjBjb2ZmZWUlMjBncmFpbnN8ZW58MHx8MHx8fDA%3D" alt="">
+                <div class="content">
+                    <h3>Cart item 04</h3>
+                    <div class="price">$15.99</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Checkout now</a>
+        </div>
+    </header>
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh Coffee in the morning</h3>
+            <p>
+                Awaken your senses with our freshly brewed coffee, the perfect start to your morning journey.
+                Indulge in the rich aroma of our morning brews, crafted to invigorate your day ahead.
+            </p>
+            <a href=""class="btn" >get yours now</a>
+        </div>
+    </section>
+    <!--ABOUT SECTION-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span>us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="Images/Premium Photo _ Cup of coffee on black background Fresh aroma italian espresso with steam Hot chocolate illustration.jpeg" alt="image">
+            </div>
+            <div class="content">
+                <h3>what makes our coffee special?</h3>
+                <p>
+                     At our coffee shop, we believe that the journey from bean to cup is just as important as the destination.
+                     That's why we meticulously source only the finest beans from around the world, ensuring each sip of our coffee tells a story of dedication and passion.
+                     From our precise roasting process to the skilled hands of our baristas, every cup is crafted with care and expertise.
+                     It's this commitment to quality and authenticity that sets our coffee apart, inviting you to savor each moment and embrace the true essence of coffee culture.
+                </p>
+                <p>
+                    At the heart of our coffee's allure lies a dedication to excellence at every step of the journey. We meticulously select the finest beans, embracing sustainable practices that honor both the environment and the communities that cultivate them.
+                    From the moment our beans are handpicked to the final pour, our commitment to quality shines through in every sip. It's this unwavering dedication to craftsmanship and sustainability that infuses each cup with a distinct character and flavor, inviting you to experience coffee in its purest form.
+                </p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!--MENU SECTION-->
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Images/Black Ink, A Coffee Lifestyle Brand.jpeg" alt="image">
+                <h3>pour over</h3>
+                <div class="price">$15.05 <span>$19.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/ea09a1db-5d14-4226-8335-d84fd01f4658.jpeg" alt="image">
+                <h3>macchiato</h3>
+                <div class="price">$16.05 <span>$21.20</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/Espresso in glass cup.jpeg" alt="image">
+                <h3>aeropress</h3>
+                <div class="price">$19.95 <span>$22.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/Espresso Brew Guides.jpeg" alt="image">
+                <h3>espresso brew</h3>
+                <div class="price">$20.00 <span>$20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/How To Make Cold Brew Coffee Recipe.jpeg" alt="image">
+                <h3>cold brew coffee</h3>
+                <div class="price">$22.15 <span>$23.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="Images/276a8072-3799-4505-af0e-65968cb3cb01.jpeg" alt="image">
+                <h3>affogato</h3>
+                <div class="price">$22.45 <span>$23.12</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!--PRODUCTS -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <ion-icon name="cart" id="cart-btn"></ion-icon>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <div class="images">
+                    <img src="Images/products1.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>eu cafe</h3>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <div class="price">$24.54 <span>$24.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <ion-icon name="cart" id="cart-btn"></ion-icon>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <div class="images">
+                    <img src="Images/product2.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>cafe PHO</h3>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                     </div>
+                    <div class="price">$26.54 <span>$27.39</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <ion-icon name="cart" id="cart-btn"></ion-icon>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <div class="images">
+                    <img src="Images/product3.png" alt="image">
+                </div>
+                <div class="content">
+                    <h3>spring</h3>
+                    <div class="stars">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <div class="price">$26.58 <span>$26.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Review section-->
+<section class="review" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <p>
+                Absolutely love this coffee shop! The ambiance is cozy, the staff is friendly, and the coffee is top-notch.
+                It's become my go-to spot for a perfect cup every morning.
+            </p>
+            <img src="Images/review2.jpeg" alt="">
+            <h3>mercy l</h3>
+            <div class="stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+            </div>
+        </div>
+        <div class="box">
+            <p>
+                I stumbled upon this gem while traveling, and
+                I'm so glad I did! Their unique blends and cozy ambiance make it a must-visit for any coffee lover.
+            </p>
+            <img src="Images/review3.jpeg" alt="">
+            <h3>johnson d</h3>
+            <div class="stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+            </div>
+
+        </div>
+        <div class="box">
+            <p>
+                The moment I walked in,
+                I was greeted with the comforting aroma of freshly roasted coffee.
+                 Each visit feels like coming home.
+            </p>
+            <img src="Images/review1.jpeg" alt="">
+            <h3>michell w</h3>
+            <div class="stars">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--CONTACT SECTION-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span>us</h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.780240872405!2d36.876006574867276!3d-1.3070306986805589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f138b73079be7%3A0xb096014a60a2f5b9!2sKahawa%20Sukari!5e0!3m2!1sen!2ske!4v1715783256291!5m2!1sen!2ske"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="input-box">
+                <span><ion-icon name="person"></ion-icon></span>
+                <input type="text" placeholder="name">
+            </div>
+
+            <div class="input-box">
+                <span><ion-icon name="mail"></ion-icon></span>
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="input-box">
+                <span><ion-icon name="call"></ion-icon></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="submit now" class="btn">
+        </form>
+    </div>
+</section>
+
+<!--BLOG SECTION-->
+<section class="blogs" id="blogs">
+    <h1 class="heading">our <span>blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="Images/blog1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">unveiling the art of coffee</a>
+                <span>by admin / 15th may, 2024</span>
+                <p>Discover the art of coffee: from bean to cup, every step is a journey of flavor.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="Images/blog2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">crafted with passion: our handcrafted coffees</a>
+                <span>by admin / 15th may, 2024</span>
+                <p>Elevate your mornings with our handcrafted coffees, brewed with passion and precision.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="Images/blog3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">magic in every cup: the story of coffee</a>
+                <span>by admin / 15th may, 2024</span>
+                <p>Experience the magic of coffee: where every cup tells a story of craftsmanship and dedication.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="share">
+        <ion-icon  name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+        <ion-icon name="logo-youtube"></ion-icon>
+        <ion-icon name="logo-tiktok"></ion-icon>
+        <ion-icon name="logo-github"></ion-icon>
+    </div>
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">products</a>
+        <a href="#">riview</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+    </div>
+    <div class="credit">created by <span>CodeCraft ventures#mugo</span> | all rigts reserved</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
